@@ -1,0 +1,236 @@
+body
+{
+scroll-behavior: smooth;
+font-family: "Alegreya";
+}
+
+/* nav-bar and header */
+/* header */
+.header
+{
+    background-image: url(../assets/imgs/images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover ;
+}
+/*end headr */
+/* nav */
+nav ul li a
+{
+    color: #e0dcd2;
+    transition: 1.5s;
+    font-size: 17px;
+}
+nav ul li a:hover
+{
+    color: rgb(100, 100, 5);
+} 
+nav ul li a span
+{
+    position: relative;
+}
+nav ul li a span::before
+{
+    content: "";
+    position: absolute;
+    background-color: rgb(132 132 6);
+    width: 118%;
+    height: 4px;
+    left: -6px;
+    top: -17px;
+}
+/* drag menue */
+.drag-menue
+{
+    position: absolute;
+    right: 11%;
+    top: 18%;
+    background-color: #00000094;
+    border-radius: 5px;
+    color: black;
+
+}
+.drag-menue a
+{
+    color: #686262;
+    transition: 1s;
+    width: 100%;
+}
+.drag-menue li:hover 
+{
+    background-color: #8e7754;
+}
+.drag-menue a:hover
+{
+    color: white;
+}
+/* end drag menue */
+/* start header disc */
+.h-disc
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: beige;
+}
+.h-disc h3
+{
+    font-weight: 300;
+    font-size: 22px;
+}
+.h-disc h1
+{
+    font-size: 60px;
+}
+.h-disc p
+{
+    font-size: 24px;
+}
+/* end start header disc */
+/* start scroller */
+.mouse
+{
+    bottom: 100px;
+    right: 49%;
+}
+
+.scroller
+{
+  
+    cursor: pointer;
+    border: 2px solid #5e5e5e;
+    border-radius: 27px;
+    padding: 10px;
+
+}
+
+/* end scroller */
+/* end nav */
+/*  end   nav-bar and header */
+/* start body */
+.about
+{
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+.about .box 
+{
+    top: 21%;
+}
+.about-icon-list
+{
+    top: 49%;
+    left: -25px
+}
+.about-icon-list li span
+{
+    border: 1px rgba(0,0,0,.6) solid;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.about-icon-list li span i
+{
+    color: rgb(125, 125, 5);
+}
+/* end about */
+ /*start location*/
+ .location
+ {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    
+
+ }
+ .location-disc p
+ {
+    font-size: 22px;
+ }
+ /* end location */
+ /* start products */
+ .Products
+ {
+    padding-top: 50px;
+    padding-bottom: 80px;
+ }
+ .Products .p-cap
+ {
+    color: #686868;
+ }
+ .products .box-caption p
+ {
+    color: #686868;
+ }
+ /* end product */
+ /* start contacts */
+ .contacts
+ {
+    padding: 12px;
+    border-radius: 5px;
+    background-color:  #f8f8f8;
+    padding-bottom: 50px;
+ }
+ .con-icon
+ {
+    border: #8e7754 10px solid;
+    border-radius: 50%;
+    background-color:#8e7754 ;
+ }
+
+ .contacts ul li
+ {
+    padding-top: 20px;
+ }
+ /* end contacts */
+/* start footer */
+.footer
+{
+    background-color: #0b0b0bf0;
+}
+.footer h3
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer p,li
+{
+    color: #686868;
+}
+
+.footer-icons li::before
+{
+    content: "\f105";
+    font-family: FontAwesome;
+    padding-right: 8px;
+    color: rgba(0,0,0,.6);
+    transition: padding .3s;
+}
+.footer-icons
+{
+    background-image: url(../assets/imgs/images/contact-details-map.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/* endd footer */
+/* the-end */
+.the-end
+{
+    padding-top: 30px;
+    /* padding-bottom: 20 px; */
+    background-color: #686868;
+}
+
+.last-icons a
+{
+    border: 15px solid grey;
+    border-radius: 100%;
+}
+/* the-end */
+/* end body  */
